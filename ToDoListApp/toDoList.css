@@ -1,0 +1,145 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+    color:black;
+}
+
+body
+{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+#container
+{
+    background-color:papayawhip;
+    padding:2%;
+    min-height: 30vh;
+    min-width: 30vw;
+    width: auto;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 5%;
+}
+
+h2
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: inline-block;
+   
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header input
+{
+    min-height: 40px;
+    width:100%;
+    border-radius: 4px;
+    border-color: pink;
+    padding-left: 5%;
+    background-color: rgb(243, 242, 243);
+}
+
+header button
+{
+    min-width: 40px;
+    background: wheat;
+    border-color: pink;
+    font-size: 2rem;
+}
+
+li
+{
+    width:100%;
+    display:flex;
+    align-items: center;
+    background-color:papayawhip;
+    padding:2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+li .buttons
+{
+    min-width: 100px;
+    margin-left: auto;
+    display: inline;
+    
+
+}
+
+li .buttons button
+{
+    background: none;
+    border: none;
+    min-width: 20px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+.completed li
+{
+    background-color: blanchedalmond;
+}
+
+
+svg
+{
+    max-width: 25px;
+}
+
+button:hover svg path
+{
+    fill:black;
+}
+
+.remove svg path
+{
+    fill:red;
+}
+.complete svg path
+{
+    fill:green;
+}
+.edit svg path
+{
+    fill:rgb(243, 218, 138);
+    
+}
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .addbtn
+{
+    min-width: 45px;
+    font-size: 1.1rem;
+}
+.btnclear
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnclear .clearbtn
+{
+    width: 100px;
+    height: 30px;
+    background: wheat;
+    border-color: pink;
+    border-radius: 5px;
+    font-size: 15px;
+}
